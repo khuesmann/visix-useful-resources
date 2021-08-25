@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<VoreenData version="1">
+    <Volumes>
+        <Volume>
+            <RawData format="float" x="{x}" y="{y}" z="{z}">
+                <Paths noPathSet="false">
+                    <paths>
+                        <item value="{filename}" />
+                    </paths>
+                </Paths>
+            </RawData>
+            <MetaData>
+                <MetaItem name="Offset" type="Vec3MetaData">
+                    <value x="{offset_x}" y="{offset_y}" z="{offset_z}" />
+                </MetaItem>
+                <MetaItem name="Spacing" type="Vec3MetaData">
+                    <value x="{spacing_x}" y="{spacing_y}" z="{spacing_z}" />
+                </MetaItem>
+            </MetaData>
+        </Volume>
+    </Volumes>
+</VoreenData>
